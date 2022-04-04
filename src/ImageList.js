@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from './Image'
-const ImageList = ({ data }) => {
+const ImageList = () => {
     return (
         <>
             <div>
-                {Image.map((data) => { <img src={`./player-images/${data.id}.jpg`} alt="players" /> })}
+                {Image.map((data) => <img src={`player-images/63706.jpg`} alt="players" />)}
+
             </div>
         </>
     )
